@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">摇摇</string>
+
+    <string name="username">媛媛</string>
+
+    <string name="mood">今天天气不错，五彩斑斓</string>
+
+    <string name="time">5分钟前</string>
 </resources>

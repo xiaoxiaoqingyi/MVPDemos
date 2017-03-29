@@ -5,15 +5,19 @@ import android.content.Context;
 import android.view.WindowManager;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.magicing.social3d.Social3DApp;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Map;
 
 /**
  * Created by Administrator
  */
 public class Utils {
+
+    private static Gson gson;
 
     public static void toast(String context){
         Toast.makeText(Social3DApp.mInstance,context, Toast.LENGTH_SHORT).show();
@@ -71,6 +75,19 @@ public class Utils {
             buffer.append(chars.charAt((int)(Math.random() * 26)));
         }
         return  buffer.toString();
+    }
+
+    /**
+     *  map 转换成 json
+     * @param map
+     * @return
+     */
+    public static String map2Json(Map map){
+        if(gson == null){
+            gson = new Gson();
+        }
+        ;
+        return gson.toJson(map);
     }
 
 }
