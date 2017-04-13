@@ -11,4 +11,10 @@
 
     <color name="font_gray_b">#d4d4d3</color>
 
+    <color name="font_tab_1">#42369a</color>
+    <color name="font_tab_0">#b1b1b1</color>
+
+
+    <color name="commom_background">#f3f3f3</color>
+
 </resources>

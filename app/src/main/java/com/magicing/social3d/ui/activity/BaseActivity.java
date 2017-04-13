@@ -46,8 +46,8 @@ public abstract class BaseActivity extends AppCompatActivity implements MVPView 
     private void init(){
         mToolbar = (Toolbar)findViewById(R.id.toolbar);
         mToolbar.setTitle("");
+        mToolbar.setNavigationIcon(R.mipmap.icon_back);
         titleTxt = (TextView)mToolbar.findViewById(R.id.titleTxt);
-
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(true);
         pDialog.setCanceledOnTouchOutside(false);
@@ -67,6 +67,10 @@ public abstract class BaseActivity extends AppCompatActivity implements MVPView 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
      }
+
+    public Toolbar getToolbar(){
+        return  mToolbar;
+    }
 
     public void setDialogMessage(String message) {
         pDialog.setMessage(message);

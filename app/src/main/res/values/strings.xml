@@ -6,4 +6,10 @@
     <string name="mood">今天天气不错，五彩斑斓</string>
 
     <string name="time">5分钟前</string>
+
+
+    <string name="main_tab1">主页</string>
+    <string name="main_tab2">探索</string>
+    <string name="main_tab4">消息</string>
+    <string name="main_tab5">我的</string>
 </resources>

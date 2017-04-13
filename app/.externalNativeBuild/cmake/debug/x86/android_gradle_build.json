@@ -1,9 +1,12 @@
 
 {
-	"buildFiles" : [ "G:/project/Android/Social3D/app/CMakeLists.txt" ],
+	"buildFiles" : 
+	[
+		"G:/project/Community/CommunityAndroid/Community3D/app/CMakeLists.txt"
+	],
 	"cleanCommands" : 
 	[
-		"C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build G:\\project\\Android\\Social3D\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+		"E:\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build G:\\project\\Community\\CommunityAndroid\\Community3D\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -12,27 +15,27 @@
 		{
 			"abi" : "x86",
 			"artifactName" : "native-lib",
-			"buildCommand" : "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build G:\\project\\Android\\Social3D\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target native-lib",
+			"buildCommand" : "E:\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build G:\\project\\Community\\CommunityAndroid\\Community3D\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target native-lib",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86  -Dnative_lib_EXPORTS -isystem C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "G:/project/Android/Social3D/app/src/main/cpp/native-lib.cpp",
-					"workingDirectory" : "G:/project/Android/Social3D/app/.externalNativeBuild/cmake/debug/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=E:/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86  -Dnative_lib_EXPORTS -isystem E:\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem E:\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "G:/project/Community/CommunityAndroid/Community3D/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "G:/project/Community/CommunityAndroid/Community3D/app/.externalNativeBuild/cmake/debug/x86"
 				}
 			],
-			"output" : "G:/project/Android/Social3D/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so",
-			"toolchain" : "358830773"
+			"output" : "G:/project/Community/CommunityAndroid/Community3D/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so",
+			"toolchain" : "2259502793"
 		}
 	},
 	"toolchains" : 
 	{
-		"358830773" : 
+		"2259502793" : 
 		{
-			"cCompilerExecutable" : "C:/Users/Administrator/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
-			"cppCompilerExecutable" : "C:/Users/Administrator/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+			"cCompilerExecutable" : "E:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
 		}
 	}
 }
