@@ -23,7 +23,10 @@ import android.widget.RadioGroup;
 import com.magicing.social3d.R;
 import com.magicing.social3d.presenter.MainPresenter;
 import com.magicing.social3d.presenter.view.IMainlView;
+import com.magicing.social3d.ui.fragment.ExploreFragment;
 import com.magicing.social3d.ui.fragment.HomeFragment;
+import com.magicing.social3d.ui.fragment.MessageFragment;
+import com.magicing.social3d.ui.fragment.MineFragment;
 import com.magicing.social3d.util.Utils;
 
 import butterknife.BindView;
@@ -101,14 +104,14 @@ public class MainActivity extends BaseActivity implements IMainlView, View.OnCli
             ft.attach(fragment);
             mCurrentFragment = fragment;
         }else if("radio2".equals(tag)){
-            mCurrentFragment = new HomeFragment();
-            ft.add(R.id.content , mCurrentFragment, "football");
+            mCurrentFragment = new ExploreFragment();
+            ft.add(R.id.content , mCurrentFragment, "radio2");
         }else if("radio4".equals(tag)){
-            mCurrentFragment = new HomeFragment();
-            ft.add(R.id.content ,mCurrentFragment, "index");
+            mCurrentFragment = new MessageFragment();
+            ft.add(R.id.content ,mCurrentFragment, "radio4");
         }else if("radio5".equals(tag)){
-            mCurrentFragment = new HomeFragment();
-            ft.add(R.id.content ,mCurrentFragment, "data");
+            mCurrentFragment = new MineFragment();
+            ft.add(R.id.content ,mCurrentFragment, "radio5");
         }
 
         ft.commit();
